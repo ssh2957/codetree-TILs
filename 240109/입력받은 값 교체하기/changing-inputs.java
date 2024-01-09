@@ -5,8 +5,8 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int temt = b;
-        int b = a;
-        int a = b;
+        b = a;
+        a = temt;
         System.out.print(a + " "+ b);
     }
 }
