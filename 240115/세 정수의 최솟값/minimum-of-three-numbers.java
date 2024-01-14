@@ -8,5 +8,5 @@ public class Main {
         if (a<=b && a<=c) System.out.println(a);
         if (b<=a && b<=c) System.out.println(b);
         if (c<=b && c<=a) System.out.println(c);
-        
+    }
 }
