@@ -30,7 +30,7 @@ public class Main {public static void main(String[] args) {
 
 	Arrays.sort(arr, (a,b)->a.hight-b.hight);
 
-    for(int i = 0; i < 5; i++)
+    for(int i = 0; i < n; i++)
         System.out.println(arr[i].name + " " + arr[i].hight + " " + arr[i].weight);
 			
 }
