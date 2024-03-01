@@ -25,7 +25,11 @@ public class Main {
 	}
 
 	private static void combination(int idx, int cnt) {
+        if(max>min) {
+			return;
+		}
 		int sum = 0;
+
 		if (cnt == m - 1) {
 
 			for (int i = arr1[cnt - 1] + 1; i < T; i++) {
